@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07090b" />
+  <meta name="description" content="Manas Biswal — Developer and Designer creating modern web experiences." />
+  <title>Manas Biswal | Developer & Designer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="ambient ambient-three"></div>
+  <div class="grid-overlay"></div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <header class="navbar glass">
+    <a class="brand" href="#home" aria-label="Manas Biswal home">M<span>B.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta">Let's Talk <span>↗</span></a>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          HELLO, WORLD! WELCOME TO MY SPACE
+        </div>
+
+        <p class="hello">Hey there, I'm</p>
+        <h1>Manas <span class="gradient-text">Biswal</span><span class="lime">.</span></h1>
+        <h2>Developer <span class="coral">+</span> Designer</h2>
+
+        <p class="hero-description">
+          I build modern web experiences and create thoughtful digital
+          designs that bring ideas to life.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#projects">
+            Explore My Work <span>↗</span>
+          </a>
+          <a class="button button-glass" href="#contact">
+            Let's Connect <span>→</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span><i class="tiny-dot"></i> Frontend Development</span>
+          <span><i class="tiny-dot coral-dot"></i> Creative Design</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card glass">
+          <div class="profile-top">
+            <span class="window-dots"><i></i><i></i><i></i></span>
+            <span class="card-label">CREATIVE.DEV</span>
+          </div>
+
+          <div class="profile-art">
+            <div class="art-glow"></div>
+            <div class="code-symbol">&lt;/&gt;</div>
+            <div class="terminal-card">
+              <span class="terminal-green">const</span> developer = {<br>
+              &nbsp; creative: <span>true</span>,<br>
+              &nbsp; curious: <span>true</span>,<br>
+              &nbsp; learning: <span>"always"</span><br>
+              };
+            </div>
+            <div class="profile-monogram">MB<span>.</span></div>
+          </div>
+
+          <div class="profile-bottom">
+            <div>
+              <strong>Ideas into interfaces.</strong>
+              <p>Code with purpose. Design with feeling.</p>
+            </div>
+            <span class="round-arrow">↗</span>
+          </div>
+        </div>
+
+        <div class="float-chip chip-code glass"><span>&lt;/&gt;</span> Clean Code</div>
+        <div class="float-chip chip-rocket glass"><span>🚀</span> Big Ideas</div>
+        <div class="float-chip chip-status glass"><i class="status-dot"></i> Always Learning</div>
+      </div>
+    </section>
+
+    <section class="stats-grid reveal" aria-label="Portfolio highlights">
+      <div class="stat glass"><strong>01<span>+</span></strong><p>Developer Mindset</p></div>
+      <div class="stat glass"><strong>02<span>+</span></strong><p>Creative Projects</p></div>
+      <div class="stat glass"><strong>09<span>+</span></strong><p>Tools & Technologies</p></div>
+      <div class="stat glass"><strong>∞</strong><p>Ideas to Explore</p></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <div><span class="section-kicker">01 / ABOUT ME</span><h2>A little about <span class="lime">me.</span></h2></div>
+        <span class="heading-symbol">✳</span>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card glass reveal">
+          <span class="about-icon">✦</span>
+          <h3>Building digital experiences with purpose.</h3>
+          <p>
+            I'm Manas Biswal, a Computer Science professional interested in
+            frontend development, software engineering and visual design.
+            I enjoy turning ideas into useful, clear and engaging experiences.
+          </p>
+          <p>
+            My goal is to keep learning, build practical projects and create
+            digital products that look good and work well.
+          </p>
+        </article>
+
+        <article class="principles-card glass reveal">
+          <span class="section-kicker">MY APPROACH</span>
+          <div class="principle"><span>01</span><div><strong>Think clearly</strong><p>Understand the problem before writing code.</p></div></div>
+          <div class="principle"><span>02</span><div><strong>Design thoughtfully</strong><p>Keep interfaces clean, useful and consistent.</p></div></div>
+          <div class="principle"><span>03</span><div><strong>Keep improving</strong><p>Learn by building and refining real projects.</p></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <div><span class="section-kicker">02 / MY TOOLKIT</span><h2>Skills I <span class="lime">work with.</span></h2></div>
+        <span class="heading-symbol">⌘</span>
+      </div>
+
+      <p class="section-description reveal">The tools I'm learning and using to build and design digital experiences.</p>
+
+      <div class="skills-grid">
+        <div class="skill-card glass reveal"><span class="skill-icon orange">5</span><div><strong>HTML5</strong><p>Web structure</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-card glass reveal"><span class="skill-icon blue">✳</span><div><strong>CSS3</strong><p>Responsive styling</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-card glass reveal"><span class="skill-icon yellow">JS</span><div><strong>JavaScript</strong><p>Interactive web</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-card glass reveal"><span class="skill-icon coral-bg">J</span><div><strong>Java</strong><p>Programming</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-card glass reveal"><span class="skill-icon purple">DB</span><div><strong>Oracle SQL</strong><p>Database queries</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-card glass reveal"><span class="skill-icon pink">PL</span><div><strong>PL/SQL</strong><p>Database programming</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-card glass reveal"><span class="skill-icon cyan">G</span><div><strong>Git</strong><p>Version control</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-card glass reveal"><span class="skill-icon white-icon">GH</span><div><strong>GitHub</strong><p>Code & collaboration</p></div><span class="skill-arrow">↗</span></div>
+        <div class="skill-card glass reveal"><span class="skill-icon violet">C</span><div><strong>Canva</strong><p>Visual design</p></div><span class="skill-arrow">↗</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <div><span class="section-kicker">03 / SELECTED WORK</span><h2>Things I've <span class="lime">created.</span></h2></div>
+        <span class="heading-symbol">↗</span>
+      </div>
+
+      <p class="section-description reveal">A selection of projects and design explorations. Add your working demos and repositories below.</p>
+
+      <div class="projects-grid">
+        <article class="project-card project-featured glass reveal">
+          <div class="project-preview preview-task">
+            <div class="preview-top"><span>pulse<span class="lime">.</span></span><span class="preview-pill">PRODUCTIVITY</span></div>
+            <div class="preview-layout">
+              <div class="preview-sidebar"><i></i><i></i><i></i><i></i></div>
+              <div class="preview-content"><span>YOUR WORKSPACE</span><h3>Plan. Focus.<br><em>Achieve.</em></h3><div class="progress-line"><i></i></div><div class="preview-lines"><i></i><i></i><i></i></div></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div><span class="project-number">PROJECT 01</span><h3>Pulse Task Manager</h3></div>
+            <p>A productivity web app concept for organizing tasks and staying focused.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card glass reveal">
+          <div class="project-preview preview-agency">
+            <span class="agency-label">DIGITAL EXPERIENCES</span>
+            <h3>Make your<br>next move<span>.</span></h3>
+            <div class="agency-orb"></div><span class="agency-caption">DESIGN / BUILD / GROW</span>
+          </div>
+          <div class="project-info">
+            <div><span class="project-number">PROJECT 02</span><h3>Nova Digital Agency</h3></div>
+            <p>A modern agency landing page concept with bold typography.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>UI Design</span></div>
+            <a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer">Add repository link <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card glass reveal">
+          <div class="project-preview preview-design">
+            <span class="design-badge">PIXELNEST / DESIGN</span>
+            <div class="design-shapes"><i></i><i></i><i></i></div>
+            <h3>Ideas made<br><span>visual.</span></h3>
+            <span class="design-caption">CREATIVE DESIGN COLLECTION</span>
+          </div>
+          <div class="project-info">
+            <div><span class="project-number">PROJECT 03</span><h3>Digital Design Collection</h3></div>
+            <p>A collection of social media graphics, layouts and visual experiments.</p>
+            <div class="tag-list"><span>Canva</span><span>Branding</span><span>Layout</span></div>
+            <a class="project-link" href="https://www.behance.net/" target="_blank" rel="noreferrer">Add design link <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section glass reveal" id="contact">
+      <div class="contact-orb"></div>
+      <span class="section-kicker">04 / HAVE A PROJECT IN MIND?</span>
+      <h2>Let's build something<br><span class="gradient-text">great together.</span></h2>
+      <p>Open to discussing entry-level opportunities, collaborative projects and creative ideas.</p>
+      <div class="contact-actions">
+        <a class="button button-primary" href="mailto:YOUR_EMAIL@example.com">Email Me <span>↗</span></a>
+        <a class="button button-glass" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+      </div>
+      <div class="contact-foot"><span><i class="status-dot"></i> Let's create something meaningful</span><span>India · Open to opportunities</span></div>
+    </section>
+
+    <footer class="footer">
+      <a class="brand" href="#home">M<span>B.</span></a>
+      <p>Designed with curiosity. Built with code.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+      <span class="copyright">© <span id="year"></span> Manas Biswal</span>
+    </footer>
+  </main>
+</body>
+</html>
